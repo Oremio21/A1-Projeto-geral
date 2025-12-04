@@ -1,4 +1,4 @@
-# Lista onde todos os produtos serão armazenados
+# Lista onde todos os produtos serao armazenados
 produtos = []  
 
 
@@ -31,9 +31,8 @@ while True:
         break
 
 
-#
-# RELATÓRIO FINAL
-#
+
+# Lista final dos produtos
 print("\n PRODUTOS CADASTRADOS ")
 
 # Estrutura de repetição para mostrar todos os produtos cadastrados
@@ -51,4 +50,5 @@ for p in produtos:
         print(f"O produto '{p['nome']}' está com estoque BAIXO.")
     else:
         print(f"O produto '{p['nome']}' possui estoque suficiente.")
+
 
