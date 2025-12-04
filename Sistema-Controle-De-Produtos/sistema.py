@@ -1,7 +1,3 @@
-# -------------------------------------------
-# MINI PROJETO DE CADASTRO DE PRODUTOS
-# -------------------------------------------
-
 # Lista onde todos os produtos serão armazenados
 produtos = []  
 
@@ -55,3 +51,4 @@ for p in produtos:
         print(f"O produto '{p['nome']}' está com estoque BAIXO.")
     else:
         print(f"O produto '{p['nome']}' possui estoque suficiente.")
+
